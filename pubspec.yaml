@@ -1,0 +1,47 @@
+name: shujinko_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  font_awesome_flutter: ^10.7.0
+  cupertino_icons: ^1.0.6
+  dio: 5.4.1
+  pretty_dio_logger: ^1.3.1
+  auto_size_text: ^3.0.0
+  email_validator: ^2.1.16
+  get_storage: ^2.1.1
+  lottie: ^2.0.0
+  google_fonts: ^6.1.0
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_image_slideshow: ^0.1.6
+  flutter_launcher_icons: ^0.13.1
+  shimmer: ^3.0.0
+  curved_labeled_navigation_bar: ^2.0.2
+  flutter_rating_bar: ^4.0.1
+  curved_navigation_bar: ^1.0.3
+  intl: ^0.17.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/logo/icon_aplikasi.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/slider/
+    - lib/assets/logo/
+
